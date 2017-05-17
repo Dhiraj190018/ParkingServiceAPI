@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingServiceAPI.Host", "Source\ParkingServiceAPI\ParkingServiceAPI.Host.csproj", "{DEA5BDAC-AF7A-408A-8390-62BF4B3EDAFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingServiceAPI.Implementation", "Source\ParkingServiceAPI.DataContract\ParkingServiceAPI.Implementation.csproj", "{02FE2915-34F2-4C6B-AFF2-9F047EF50CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingServiceAPI.Contract", "Source\ParkingServiceAPI.FaultContract\ParkingServiceAPI.Contract.csproj", "{DC7ADE25-3AAE-4BF8-AB39-5C5A9C8C4341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingServiceAPI.DataAccess", "Source\ParkingServiceAPI.DataAccess\ParkingServiceAPI.DataAccess.csproj", "{91C39234-A4E4-44E0-B812-488BEF15B169}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingServiceAPI.Common", "Source\ParkingServiceAPI.Common\ParkingServiceAPI.Common.csproj", "{CC399DDB-1CB9-4D70-9F29-687578BBE46D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{6AC9AB39-E5EC-469A-84D0-FBAE61193EC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5C420D52-CCC5-4AA3-8378-7486803D562B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingServiceAPI.ImplementationTests", "Test\ParkingServiceAPI.ImplementationTests\ParkingServiceAPI.ImplementationTests.csproj", "{5027F01F-8DF3-49D1-9A37-2884EF028145}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEA5BDAC-AF7A-408A-8390-62BF4B3EDAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA5BDAC-AF7A-408A-8390-62BF4B3EDAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA5BDAC-AF7A-408A-8390-62BF4B3EDAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA5BDAC-AF7A-408A-8390-62BF4B3EDAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FE2915-34F2-4C6B-AFF2-9F047EF50CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FE2915-34F2-4C6B-AFF2-9F047EF50CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FE2915-34F2-4C6B-AFF2-9F047EF50CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FE2915-34F2-4C6B-AFF2-9F047EF50CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC7ADE25-3AAE-4BF8-AB39-5C5A9C8C4341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7ADE25-3AAE-4BF8-AB39-5C5A9C8C4341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7ADE25-3AAE-4BF8-AB39-5C5A9C8C4341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7ADE25-3AAE-4BF8-AB39-5C5A9C8C4341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C39234-A4E4-44E0-B812-488BEF15B169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C39234-A4E4-44E0-B812-488BEF15B169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C39234-A4E4-44E0-B812-488BEF15B169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C39234-A4E4-44E0-B812-488BEF15B169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC399DDB-1CB9-4D70-9F29-687578BBE46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC399DDB-1CB9-4D70-9F29-687578BBE46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC399DDB-1CB9-4D70-9F29-687578BBE46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC399DDB-1CB9-4D70-9F29-687578BBE46D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5027F01F-8DF3-49D1-9A37-2884EF028145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5027F01F-8DF3-49D1-9A37-2884EF028145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5027F01F-8DF3-49D1-9A37-2884EF028145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5027F01F-8DF3-49D1-9A37-2884EF028145}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEA5BDAC-AF7A-408A-8390-62BF4B3EDAFD} = {6AC9AB39-E5EC-469A-84D0-FBAE61193EC7}
+		{02FE2915-34F2-4C6B-AFF2-9F047EF50CB5} = {6AC9AB39-E5EC-469A-84D0-FBAE61193EC7}
+		{DC7ADE25-3AAE-4BF8-AB39-5C5A9C8C4341} = {6AC9AB39-E5EC-469A-84D0-FBAE61193EC7}
+		{91C39234-A4E4-44E0-B812-488BEF15B169} = {6AC9AB39-E5EC-469A-84D0-FBAE61193EC7}
+		{CC399DDB-1CB9-4D70-9F29-687578BBE46D} = {6AC9AB39-E5EC-469A-84D0-FBAE61193EC7}
+		{5027F01F-8DF3-49D1-9A37-2884EF028145} = {5C420D52-CCC5-4AA3-8378-7486803D562B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ParkingServiceAPI/packages
+/ParkingServiceAPI/Source/ParkingServiceAPI/obj/Debug
+/ParkingServiceAPI/Source/ParkingServiceAPI/bin
+/ParkingServiceAPI/Source/ParkingServiceAPI/ParkingServiceAPI.Host.csproj.user
+/ParkingServiceAPI/Source/ParkingServiceAPI.Common/obj/Debug
+/ParkingServiceAPI/Source/ParkingServiceAPI.Common/bin/Debug
+/ParkingServiceAPI/Source/ParkingServiceAPI.DataAccess/obj/Debug
+/ParkingServiceAPI/Source/ParkingServiceAPI.DataAccess/bin/Debug
+/ParkingServiceAPI/Source/ParkingServiceAPI.DataContract/obj/Debug
+/ParkingServiceAPI/Source/ParkingServiceAPI.DataContract/bin/Debug
+/ParkingServiceAPI/Source/ParkingServiceAPI.FaultContract/bin/Debug
+/ParkingServiceAPI/Source/ParkingServiceAPI.FaultContract/obj/Debug
+/ParkingServiceAPI/Test/ParkingServiceAPI.ImplementationTests/obj/Debug
+/ParkingServiceAPI/Test/ParkingServiceAPI.ImplementationTests/bin/Debug
+/ParkingServiceAPI/ParkingServiceAPI.sln.DotSettings.user
+/ParkingServiceAPI/.vs/ParkingServiceAPI/v14
+/ParkingServiceAPI/.vs/config
