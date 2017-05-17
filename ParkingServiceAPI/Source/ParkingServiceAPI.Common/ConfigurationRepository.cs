@@ -15,7 +15,7 @@ namespace ParkingServiceAPI.Common
             DynamicSettings = ConfigurationManager.AppSettings;
         }
 
-        public NameValueCollection DynamicSettings { get; }
+        public NameValueCollection DynamicSettings { get; private set; }
 
         public string Get(string key)
         {
