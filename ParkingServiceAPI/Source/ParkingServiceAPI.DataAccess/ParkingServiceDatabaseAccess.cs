@@ -25,8 +25,10 @@ namespace ParkingServiceAPI.DataAccess
 
             // Stubbed response
             var checkInTime = vehicleId.Length == 5 ? DateTime.Now.AddHours(-2.5) : DateTime.Now.AddHours(-3.5);
-            var number = RandomNumberGenerator.Create().ToString();
-            return new VehicleInformation() { VehicleId = vehicleId, VinNumber = number, VehicleName = "Tesla Model S - VIN-", CheckInTime = checkInTime , CheckOutTime = null};
+
+            // retrun stub number for vin number
+            var number = new Random().Next();
+            return new VehicleInformation() { VehicleId = vehicleId, VinNumber = number.ToString(), VehicleName = "Tesla Model S - VIN-", CheckInTime = checkInTime , CheckOutTime = null};
         }
     }
 }
